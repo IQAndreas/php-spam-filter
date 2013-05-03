@@ -1,0 +1,25 @@
+# Keywords blacklist for "php-spam-filter"
+# Any regular expression syntax can be used here
+# 	(without the delimiters)
+# All keywords are case insensitive.
+# Lines starting with '#' are ignored.
+
+Ias 39
+Plus500
+Banc\s?De\s?Binary
+Traderush
+Avafx
+Trade Plus
+Etoro
+Anyoption
+Optionbit
+Optionfair
+Onetwotrade
+Binary options?
+Options Binaires
+24option
+
+# I got tired of it all, so I just blocked any mention of "forex"
+#mini forex
+#forex (course|trading)
+forex

@@ -1,0 +1,45 @@
+# Keywords blacklist for "php-spam-filter"
+# Any regular expression syntax can be used here
+# 	(without the delimiters)
+# All keywords are case insensitive.
+# Lines starting with '#' are ignored.
+
+replica (Rolex|watch)
+Louis\s?Vuitton
+Ralph\s?Lauren
+Jeremiah wann
+louboutin
+kobe bryant
+air max
+jimmy choo
+dre beats
+beats by dre
+coach (factory )?outlet
+nike\s*(store|shop|gs|shox)
+(official|cheap)\s*(store|shop|jersey)
+ugg\s*(sale|boots)
+isabel marant
+(bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
+moncler outlet
+vivienne westwood
+gucci
+abercrombie en ligne
+abercrombie\s*(france|canada)
+(eternity|diamond)\s?(ring|earring)
+(sex|masturbation) toys
+cigarette drops
+electronic\s?cigarette
+longchamp
+Wayne\s?Rooney
+Michael\s?Kors
+onlinebags
+sunglasses
+Hermes Bags
+Prada handbag
+cheap toner
+porno loubnane
+colored contacts
+(wedding|engagement) rings?
+
+
+

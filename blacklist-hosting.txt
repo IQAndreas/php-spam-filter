@@ -1,0 +1,17 @@
+# Keywords blacklist for "php-spam-filter"
+# Any regular expression syntax can be used here
+# 	(without the delimiters)
+# All keywords are case insensitive.
+# Lines starting with '#' are ignored.
+
+(go\s?daddy|host\s?monster|host\s?gator|blue\s?host|Host\s?papa|In\s?motion|just\s?host)\s*(web hosting|hosting|review|discount|coupon|c ?panel|reseller)
+(managed|vps|web|joomla|dedicated|reseller|windows|linux|a2|wordpress|server)\s*(hosting)
+just host
+host review
+vpn download
+
+#I'm tired of this crap. From now on, NO ONE may mention Host Monster!
+host\s?monster
+blue\s?host
+
+
