@@ -69,7 +69,7 @@ function regex_match_from_blacklist($text, $blacklist)
 		
 		// Remove comments and whitespace before and after a keyword
 		$regex = preg_replace('/(^\s+|\s+$|\s*#.*$)/i', "", $regex);
-		if (emtpy($regex)) continue;
+		if (empty($regex)) continue;
 		
 		$match = @preg_match("/$regex/i", $text, $regex_match);
 		if ($match)
