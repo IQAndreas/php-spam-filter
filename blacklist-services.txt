@@ -1,0 +1,42 @@
+# Keywords blacklist for "php-spam-filter"
+# Any regular expression syntax can be used here
+# 	(without the delimiters)
+# All keywords are case insensitive.
+# Lines starting with '#' are ignored.
+
+# A few of these are on the verge of being classified as "merchendise",
+# but I'm sorting the best that I can. Remember that you can always
+# disble some keywords by prefixing them with the `#` character.
+
+car\s*loan
+cars? for sale
+7 Seater Car
+credit repair
+pay\s?day loan
+archeage gold
+diablo\s?3?\s?gold
+home (phone|broadband)
+no win no fee
+horse racing
+(currency|money)\s*transfer
+alternatefuel
+online dating
+reverse phone lookup
+cash advance
+online divorce
+divorce on\s*line
+ppi claims
+hotels cheap
+(london|usa) (hotels?|spas?)
+electricity prices
+lottery results
+GScraper
+buy (youtube|twitter)
+
+(criminal|defense|family) lawyer
+(car|life|building)\s*insurance
+(accident|injury|compensation) claims?
+(plumbers?|lawyers?|locksmiths?|storage|repairs?|pest control|electricians?|accountants?|solicitors?) (in)?\s?(north|east|south|west)?\s?(london|vancouver|ottowa|toronto|Mississauga|sydney|Melbourne)
+(debt|financial) (consolidation|relief|advice|management|counselling)
+personal injury solicitor
+

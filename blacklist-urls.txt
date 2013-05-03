@@ -1,12 +1,8 @@
-# URL blacklist for the anti-spam filter
+# URL blacklist for for "php-spam-filter"
 # Any regular expression syntax can be used here
 # 	(without the delimiters)
 # All keywords are case insensitive.
 # Lines starting with '#' are ignored.
-
-louisvuitton
-paydayloan
-monclerpascher
 
 theychanel.com
 everychanel.com
@@ -18,4 +14,8 @@ familiekock.nl
 kreatorzyimprezek.pl
 livingwithrheumatoidarthritis.org
 
+# Any URL that contains these words is evil!
+louisvuitton
+paydayloan
+monclerpascher
 
