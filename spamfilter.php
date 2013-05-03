@@ -34,7 +34,7 @@ function regex_match_from_file($text, $blacklist)
 	foreach($keywords as $keyword) 
 	{
 		// Remove comments and whitespace before and after a keyword
-		$keyword = preg_replace('/(^\s+|\s+$|#.*^)/i', "", $keyword);
+		$keyword = preg_replace('/(^\s+|\s+$|\s*#.*$)/i', "", $keyword);
 		
 		if (!empty($keyword) && preg_match("/$keyword/i", $text))
 		{
