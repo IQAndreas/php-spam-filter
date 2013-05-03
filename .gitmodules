@@ -1,0 +1,3 @@
+[submodule "blacklists"]
+	path = blacklists
+	url = https://github.com/IQAndreas/php-spam-filter.git
