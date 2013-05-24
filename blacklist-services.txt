@@ -8,6 +8,7 @@
 # but I'm sorting the best that I can. Remember that you can always
 # disble some keywords by prefixing them with the `#` character.
 
+cash\s*loan
 car\s*loan
 cars? for sale
 7 Seater Car

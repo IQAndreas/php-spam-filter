@@ -88,7 +88,7 @@ JesExtender
 
 # I'm guessing these are considered "organic medication"
 green coffee (bean )?extract
-
+acai diet
 
 # I got tired of making these elaborate "catches" for the HGH spam, so I just blocked the use of the word HGH et al at all!
 #(hgh|hcg|tmj) (recipes|vitamins|drops|diet|ingredients|suppliments|supplements|gold|platinum|hormone|calculator|weight|studies|legal)
