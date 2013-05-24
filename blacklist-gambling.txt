@@ -1,4 +1,4 @@
-# Keywords blacklist for "php-spam-filter"
+v# Keywords blacklist for "php-spam-filter"
 # Any regular expression syntax can be used here
 # 	(without the delimiters)
 # All keywords are case insensitive.
@@ -15,7 +15,7 @@ william hill
 ladbrokes
 888\s?(poker|casino|game|sport|ladies)
 topaze?
-casino (travel|europ|game)
+casino (travel|europ|game|bonus)
 spin palace
 tropezia
 euroking
@@ -28,3 +28,9 @@ speelautom(aten|aat)
 spielautom(aten|aat)
 fruitautom(aten|aat)
 casino (en ligne|en linea)
+spiel in casino
+spielen kostenlos?
+kostenlos? spielen
+
+
+
