@@ -16,16 +16,18 @@
 //  with this program; if not, see <http://www.gnu.org/licences/>
 
 define(SPAM_BLACKLISTS_DIR, dirname(__FILE__) . DIRECTORY_SEPARATOR . 'blacklists' . DIRECTORY_SEPARATOR );
-define(ALL_BLACKLISTS, SPAM_BLACKLISTS_DIR . 'blacklist-*.txt');
+define(SPAM_BLACKLISTS_INDEX, SPAM_BLACKLISTS_DIR . 'index' );
+define(ALL_BLACKLISTS, file_get_contents(SPAM_BLACKLISTS_INDEX) );
 
 function spam_check_text($text, $blacklist = ALL_BLACKLISTS)
 {
 	if ($blacklist == ALL_BLACKLISTS)
 	{
-		$blacklists = glob(ALL_BLACKLISTS);
+		$blacklists = preg_split("/((\r?\n)|(\r\n?))/", ALL_BLACKLISTS);
 		foreach ($blacklists as $blacklist_filename)
 		{
-			$match = regex_match_from_blacklist($text, $blacklist_filename);
+			if (!$blacklist_filename) continue; // Ignore empty lines
+			$match = regex_match_from_blacklist($text, SPAM_BLACKLISTS_DIR . $blacklist_filename);
 			if ($match) return $match;
 		}
 	}
