@@ -7,13 +7,5 @@
 #Used to test injection
 \$RandomStr
 cl_prem:
+%url%
 
-#Lots of spammy
-#https?:\/\/[^\/]+\.pl
-https?:\/\/[^\/]+\.pl\/\S+,s,\d{2,8}\/
-https?:\/\/[^\/]+\.pl\/\S*\?p=\d{2,8}
-
-# These aren't injection, they just account for a rediculous amount of spam!
-<a href="[^"]*">Slots<\/a>
-<a href="[^"]*">Casino<\/a>
-<a href="[^"]*">HGH<\/a>
