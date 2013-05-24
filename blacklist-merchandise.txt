@@ -27,8 +27,9 @@ abercrombie en ligne
 abercrombie\s*(france|canada)
 (eternity|diamond)\s?(ring|earring)
 (sex|masturbation) toys
-cigarette drops
-electronic\s?cigarette
+cigarette (drops|discounter)
+(cheap|discount|electronic)\s?cigarette
+teeth\s?whitening
 longchamp
 Wayne\s?Rooney
 Michael\s?Kors

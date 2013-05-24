@@ -37,6 +37,8 @@ Nizoral
 Natox
 vimax
 flagyl
+Garcinia\s?cambogia
+Zeta\s?clear
 acne treatment
 volume\s?pills
 SizeGenetics
@@ -54,6 +56,9 @@ Meratol
 raspberry ketone
 modafinil
 penis enlargement
+breast actives
+male extra
+male edge
 GenF20
 human growth hormone
 Nuratrim
@@ -81,15 +86,17 @@ orlistat
 nolvadex
 clonazepam
 prozac
-weight loss
+weight\s?loss
 Meridia
 oxycodone
 ClearPores
 JesExtender
+penis\s?health
+diet\s?patch
+(menu|zone|acai)\s?diet
 
 # I'm guessing these are considered "organic medication"
 green coffee (bean )?extract
-acai diet
 
 # I got tired of making these elaborate "catches" for the HGH spam, so I just blocked the use of the word HGH et al at all!
 #(hgh|hcg|tmj) (recipes|vitamins|drops|diet|ingredients|suppliments|supplements|gold|platinum|hormone|calculator|weight|studies|legal)

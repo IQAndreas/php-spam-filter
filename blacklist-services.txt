@@ -14,8 +14,7 @@ cars? for sale
 7 Seater Car
 credit repair
 pay\s?day loan
-archeage gold
-diablo\s?3?\s?gold
+(archeage|runscape|diablo\s?3?)\s?gold
 home (phone|broadband)
 no win no fee
 horse racing
@@ -34,6 +33,7 @@ lottery results
 GScraper
 buy (youtube|twitter)
 
+home\s?security
 (criminal|defense|family) lawyer
 (car|life|building)\s*insurance
 (accident|injury|compensation) claims?

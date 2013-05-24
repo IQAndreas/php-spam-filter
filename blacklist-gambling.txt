@@ -4,11 +4,11 @@
 # All keywords are case insensitive.
 # Lines starting with '#' are ignored.
 
-(fun|free|online|en ligne|gold|gratuits?|mobile|samsung|casino)\s*(gambling|texas|casino|black\s?jack|poker|roulette|slots|keno)
-(blackjack|roulette|casino|poker|slot( machine)?) (online|en ligne|virtuel|betting)
+(fun|free|online|en ligne|gold|gratuits?|mobile|samsung|casinos?|slots?)\s*(gambling|texas|casino|black\s?jack|poker|roulette|slots|keno)
+(blackjack|roulette|casino|poker|slot( machine)?) (bonus|online|en ligne|virtuel|betting)
 (video|penny|machine) slots
 slots? (games|card|for fun|machine|online)
-(lake|island|nouveau|swiss|bovada|betway|batway|ladbrokes|europa) (casino|poker)
+(vegas|lake|island|nouveau|swiss|bovada|betway|batway|ladbrokes|europa|royale|monte carlo|valley|emerald queen|park) (casino|poker)
 32\s*red
 pokerstars
 william hill
@@ -27,10 +27,10 @@ machine a sous
 speelautom(aten|aat)
 spielautom(aten|aat)
 fruitautom(aten|aat)
-casino (en ligne|en linea)
-spiel in casino
-spielen kostenlos?
-kostenlos? spielen
+casino (en ligne|en linea|gratuit)
+(spela|svenska|spiel in|spiele?) casino
+spielen? kostenlos?
+(casino|kostenlos?) spielen?
 
 
 
