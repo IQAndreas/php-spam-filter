@@ -1,4 +1,4 @@
-v# Keywords blacklist for "php-spam-filter"
+# Keywords blacklist for "php-spam-filter"
 # Any regular expression syntax can be used here
 # 	(without the delimiters)
 # All keywords are case insensitive.
