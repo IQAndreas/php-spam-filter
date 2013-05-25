@@ -15,40 +15,97 @@
 //  You should have received a copy of the GNU General Public License along
 //  with this program; if not, see <http://www.gnu.org/licences/>
 
-define(BLACKLIST_DIR, dirname(__FILE__) . DIRECTORY_SEPARATOR . 'blacklists' . DIRECTORY_SEPARATOR );
-define(BLACKLIST_INDEX, BLACKLIST_DIR . 'index' );
-define(BLACKLIST_VERSION, file_get_contents(BLACKLIST_DIR . 'version') );
-define(ALL_BLACKLISTS, file_get_contents(BLACKLIST_INDEX) );
-
-define(BLACKLIST_UPDATE_URL, 'https://raw.github.com/IQAndreas/php-spam-filter/blacklists/');
-
 class SpamFilter
 {
-
-	public function __construct()
+	/* $blacklists can be one of the following options
+	 *  null: uses the default blacklist folder
+	 *	a string: a path to a custom blacklist folder
+	 *	an array of strings: Each string should point to a blacklist file
+	 * 
+	 * $blacklist_update_url can either be a url, or a local path. (the latter is yet untested)
+	 */
+	public function __construct($blacklists = null, $blacklist_update_url = null)
 	{
-		
-	}
-
-	public function check_text($text, $blacklist = ALL_BLACKLISTS)
-	{
-		if ($blacklist == ALL_BLACKLISTS)
+		if (is_array($blacklists))
 		{
-			$blacklists = preg_split("/((\r?\n)|(\r\n?))/", ALL_BLACKLISTS);
-			foreach ($blacklists as $blacklist_filename)
-			{
-				if (!$blacklist_filename) continue; // Ignore empty lines
-				$match = regex_match_from_blacklist($text, BLACKLIST_DIR . $blacklist_filename);
-				if ($match) return $match;
-			}
+			$this->blacklist_directory = null;
+			$this->blacklists = $blacklists;
+		}
+		elseif ($blacklists === null)
+		{
+			$blacklists = SpamFilter::default_blacklist_directory();
+			$this->blacklist_directory = $blacklists;
+			$this->blacklists = $this->get_blacklists_from_directory($blacklists);
+		}
+		elseif (is_string($blacklists))
+		{
+			$this->blacklist_directory = $blacklists;
+			$this->blacklists = $this->get_blacklists_from_directory($blacklists);
 		}
 		else
 		{
-			return regex_match_from_blacklist($text, $blacklist);
+			// Is this the proper way to throw errors in PHP?
+			trigger_error("[SpamFilter::__construct()] Error: Invalid value for parameter \$blacklist.");
+			
+			$this->blacklist_directory = null;
+			$this->blacklists = array();
+		}
+		
+		if ($blacklist_update_url === null)
+		{
+			$this->blacklist_update_url = SpamFilter::default_blacklist_update_url();
+		}
+		else
+		{
+			$this->blacklist_update_url = $blacklist_update_url;
+		}
+	}
+	
+	private function get_blacklists_from_directory($blacklist_directory)
+	{
+		$blacklist_index = $blacklist_directory . DIRECTORY_SEPARATOR . 'index';
+		if (!file_exists($blacklist_index))
+		{
+			// Is this the proper way to throw errors in PHP?
+			trigger_error("[SpamFilter::__construct()] Error: Cannot find blacklist index in `$blacklist_directory`.");
+			return array();
+		}
+		else
+		{
+			$index = $blacklist_directory . DIRECTORY_SEPARATOR . 'index';
+			return $this->get_list_from_file($index);
+		}
+	}
+	
+	private function get_list_from_file($file_path)
+	{
+		$file_contents = file_get_contents($file_path);
+		return preg_split("/((\r?\n)|(\r\n?))/", $file_contents, NULL, PREG_SPLIT_NO_EMPTY);	
+	}
+	
+	public static function default_blacklist_directory()
+	{
+		return dirname(__FILE__) . DIRECTORY_SEPARATOR . 'blacklists'; // absolute path
+	}
+	public static function default_blacklist_update_url()
+	{
+		return "https://raw.github.com/IQAndreas/php-spam-filter/blacklists/";
+	}
+		
+	private $blacklist_directory;
+	private $blacklist_update_url;
+	private $blacklists;
+
+	public function check_text($text)
+	{
+		foreach ($this->blacklists as $blacklist_filename)
+		{
+			$match = $this->regex_match_from_blacklist($text, $blacklist_filename);
+			if ($match) return $match;
 		}
 	}
 
-	public function check_url($url, $blacklist = ALL_BLACKLISTS)
+	public function check_url($url)
 	{
 		// TODO! Just treat the url as plain text for now.
 		return $this->check_text($url, $blacklist);
@@ -58,8 +115,11 @@ class SpamFilter
 	{
 		if (!file_exists($blacklist))
 		{
+			$path = $this->blacklist_directory;
+			if ($path === null) $path = SpamFilter::default_blacklist_directory();
+			
 			// Check to see if they supplied a relative path instead of an absolute one.
-			$blacklist_absolute = BLACKLIST_DIR . $blacklist;
+			$blacklist_absolute = $path . DIRECTORY_SEPARATOR . $blacklist;
 			if (file_exists($blacklist_absolute))
 			{
 				$blacklist = $blacklist_absolute;
@@ -67,7 +127,7 @@ class SpamFilter
 			else
 			{
 				// Is this the proper way to throw errors in PHP?
-				trigger_error("[spamfilter.php::regex_match_from_blacklist()] Error: Cannot find blacklist with name `$blacklist`.");
+				trigger_error("[SpamFilter::regex_match_from_blacklist()] Error: Cannot find blacklist with name `$blacklist_absolute`.");
 				return false;
 			}
 		}
@@ -92,7 +152,7 @@ class SpamFilter
 			}
 			else if ($match === false)
 			{
-				trigger_error("[spamfilter.php::regex_match_from_blacklist()] Error: Invalid regular expression in `$blacklist` line $current_line.");
+				trigger_error("[SpamFilter::regex_match_from_blacklist()] Error: Invalid regular expression in `$blacklist` line $current_line.");
 				continue;	
 			}
 		}
@@ -100,71 +160,136 @@ class SpamFilter
 		// No spam found
 		return false;
 	}
+	
+	
+	// returns `null` if not currently using a valid blacklist directory
+	public function version()
+	{
+		$blacklist_version_file = $this->blacklist_directory . DIRECTORY_SEPARATOR . 'version';
+		if (file_exists($blacklist_version_file))
+		{
+			return trim(file_get_contents($blacklist_version_file));
+		}
+		else
+		{
+			return null;
+		}
+	}
+	
+	// Returns `true` if an update exists, `false` if using the same version as on the server,
+	//  and `null` if not currently using a valid blacklist directory
+	public function blacklist_update_available()
+	{
+		// Will only check if the version numbers do not match, not if one is newer than the other.
+		$current_version = $this->version();
+		if ($current_version === null) return null;
+		
+		$remote_version = trim(file_get_contents($this->blacklist_update_url . 'version'));
+	
+		return ($current_version != $remote_version);
+	}
 
 	// WARNING: This will overwrite any of the old files!
 	// I'm not sure if I should also delete any old blacklists too, or if I should leave them.
-	// Returns the current blacklist version as a string.
-	public function update_blacklists($force = false, $source_url = BLACKLIST_UPDATE_URL)
+	// Returns the current blacklist version as a string, or `null` if unable to update.
+	public function update_blacklists($force = false)
 	{
 		// If there is a better way to download stuff from another server, please let me know.
 		// I'm using this method because there is a limit to how large the files can be, which is good,
 		// since the blacklists should all be rather small. I really should put some more type of protection in.
-		$index = BLACKLIST_UPDATE_URL . 'index';
-	
-		if ($force || blacklist_update_available($source_url))
+		
+		if ($this->blacklist_directory === null) return null;
+		
+		if ($force || ($this->blacklist_update_available() === true))
 		{
-			// Delete old blacklist files
-			$blacklists = preg_split("/((\r?\n)|(\r\n?))/", ALL_BLACKLISTS);
-			foreach ($blacklists as $blacklist_filename)
+			if (!$this->try_blacklist_update())
 			{
-				if (!$blacklist_filename) continue; // Skip empty lines
-				$blacklist_filename = basename($blacklist_filename); // Prevent injection (just in case)
-				$blacklist_file = BLACKLIST_DIR . $blacklist_filename;
-			
-				if (file_exists($blacklist_file))
+				if ($this->blacklist_directory_dirty)
 				{
-					unlink($blacklist_file);
+					$blacklist_version_file = $this->blacklist_directory . DIRECTORY_SEPARATOR . 'version';
+					$version_error_message = "[Previous update failed. Please re-update the blacklists.]";
+					file_put_contents($blacklist_version_file);
 				}
-				else
-				{
-					// Complain or something?
-				}
-			}
-		
-			function download_file($source_url, $filename)
-			{
-				// Pray that the filename does not contain invalid characters
-				$remote_filename = $source_url . $filename;
-				file_put_contents(BLACKLIST_DIR . $filename, file_get_contents($remote_filename));
-			}
-		
-			download_file($source_url, 'index');
-			download_file($source_url, 'version');
-		
-			// Loop through index, downloading new files as needed
-			//  (I see nothing wrong in re-using variable names here)
-			$new_index_contents = file_get_contents(BLACKLIST_INDEX);
-			$blacklists = preg_split("/((\r?\n)|(\r\n?))/", $new_index_contents);
-			foreach ($blacklists as $blacklist_filename)
-			{
-				if (!$blacklist_filename) continue; // Skip empty lines
-				download_file($source_url, $blacklist_filename);
+				
+				return null;
 			}
 		}
-	
-	
-		$current_version = file_get_contents(BLACKLIST_DIR . 'version');
-		return $current_version;
-	
+		
+		// Returns the NEW version
+		return $this->version();
 	}
-
-	public function blacklist_update_available($source_url = BLACKLIST_UPDATE_URL)
-	{
-		// Will only check if the version numbers do not match, not if one is newer than the other.
-		$current_version = BLACKLIST_VERSION;
-		$remote_version = file_get_contents($source_url . 'version');
 	
-		return ($current_version != $remote_version);
+	private $blacklist_directory_dirty = false;
+	private function try_blacklist_update()
+	{	
+		// Delete old blacklist files
+		$index = $this->blacklist_update_url . 'index';
+		$blacklists = $this->get_list_from_file($index);
+		foreach ($blacklists as $blacklist_filename)
+		{
+			if (!$this->delete_blacklist_file($blacklist_filename)) return false;
+		}
+		
+		if (!$this->download_blacklist_file('index')) return false;
+		
+		// Loop through index, downloading new files as needed
+		//  (I see nothing wrong in re-using variable names here)
+		$blacklists = $this->get_blacklists_from_directory($this->blacklist_directory);
+		foreach ($blacklists as $blacklist_filename)
+		{
+			if (!$this->download_blacklist_file($blacklist_filename)) return false;
+		}
+		
+		if (!$this->download_blacklist_file('version')) return false;
+		
+		return true;
+	}
+	
+	private function delete_blacklist_file($blacklist_filename)
+	{
+		// Prevent injection which would try to place downloaded files in a different directory
+		// XXX: If this option is used, you may NOT use absolute paths for the blacklist files!!
+		//		However, that's not much of an issue, as the remote blacklist index will always use relative paths.
+		$blacklist_filename = basename($blacklist_filename); 
+		$blacklist_file = $this->blacklist_directory . DIRECTORY_SEPARATOR . $blacklist_filename;
+		
+		if (file_exists($blacklist_file))
+		{
+			$result = unlink($blacklist_file);
+			if ($result)
+			{
+				$this->blacklist_directory_dirty = true;
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		else
+		{
+			// Cannot find file. Complain or something?
+			return false;
+		}
+	}
+	
+	private function download_blacklist_file($blacklist_filename)
+	{
+		// Prevent injection which would try to place downloaded files in a different directory
+		//	(see comment in `delete_blacklist_file` for details)
+		$blacklist_filename = basename($blacklist_filename);
+		
+		$local_filename = $this->blacklist_directory . DIRECTORY_SEPARATOR . $blacklist_filename;
+		$remote_filename = $this->blacklist_update_url . $blacklist_filename;
+		
+		$contents = file_get_contents($remote_filename);
+		if ($contents === false) return false;
+		
+		$result = file_put_contents($local_filename, $contents);
+		if ($result === false) return false;
+		
+		$this->blacklist_directory_dirty = true;
+		return true;
 	}
 
 }
