@@ -267,25 +267,11 @@ class SpamFilter
 		$blacklist_filename = basename($blacklist_filename); 
 		$blacklist_file = $this->blacklist_directory . DIRECTORY_SEPARATOR . $blacklist_filename;
 		
-		if (file_exists($blacklist_file))
-		{
-			$result = unlink($blacklist_file);
-			if ($result)
-			{
-				$this->blacklist_directory_dirty = true;
-				return true;
-			}
-			else
-			{
-				// Cannot delete old file. Complain or something?
-				return false;
-			}
-		}
-		else
-		{
-			// Cannot find file. Complain or something?
-			return false;
-		}
+		if (!file_exists($blacklist_file)) return false; // Cannot find file. Complain or something?
+		if (!unlink($blacklist_file)) return false; // Cannot delete old file. Complain or something?
+		
+		$this->blacklist_directory_dirty = true;
+		return true;
 	}
 	
 	private function download_blacklist_file($blacklist_filename)
