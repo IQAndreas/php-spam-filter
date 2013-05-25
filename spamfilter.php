@@ -206,9 +206,14 @@ class SpamFilter
 			{
 				if ($this->blacklist_directory_dirty)
 				{
+					trigger_error("[SpamFilter::update_blacklists()] Error: Failure during the middle of an update, which means some of the blacklists may be incomplete. Please fix the problems and re-update the blacklists.");
 					$blacklist_version_file = $this->blacklist_directory . DIRECTORY_SEPARATOR . 'version';
 					$version_error_message = "[Previous update failed. Please re-update the blacklists.]";
-					file_put_contents($blacklist_version_file);
+					file_put_contents($blacklist_version_file, $version_error_message);
+				}
+				else
+				{
+					trigger_error("[SpamFilter::update_blacklists()] Error: Update failed. Reverting to previous blacklist version.");
 				}
 				
 				return null;
@@ -221,27 +226,36 @@ class SpamFilter
 	
 	private $blacklist_directory_dirty = false;
 	private function try_blacklist_update()
-	{	
-		// Delete old blacklist files
-		$index = $this->blacklist_update_url . 'index';
-		$blacklists = $this->get_list_from_file($index);
-		foreach ($blacklists as $blacklist_filename)
-		{
-			if (!$this->delete_blacklist_file($blacklist_filename)) return false;
-		}
+	{
+		// Store a reference to the old index of blacklists, as the new index is about to change
+		$old_blacklists = $this->get_blacklists_from_directory($this->blacklist_directory);
 		
+		// Download the new index (is also a way to test if the script is able to connect to the download server)
 		if (!$this->download_blacklist_file('index')) return false;
 		
-		// Loop through index, downloading new files as needed
-		//  (I see nothing wrong in re-using variable names here)
-		$blacklists = $this->get_blacklists_from_directory($this->blacklist_directory);
-		foreach ($blacklists as $blacklist_filename)
+		// Delete old blacklist files
+		foreach ($old_blacklists as $blacklist_filename)
+		{
+			if (!$this->delete_blacklist_file($blacklist_filename))
+			{
+				// Just ignore old blacklist files if you are unable to delete them.
+				// They may get replaced by new files anyway.
+				trigger_error("[SpamFilter::update_blacklists()] Warning: Unable to remove old blacklist file `$blacklist_filename`. Ignoring and continuing with the update.");
+				//return false;
+			}
+		}
+		
+		// Loop through index, downloading new blacklist files
+		$new_blacklists = $this->get_blacklists_from_directory($this->blacklist_directory);
+		foreach ($new_blacklists as $blacklist_filename)
 		{
 			if (!$this->download_blacklist_file($blacklist_filename)) return false;
 		}
 		
+		// Finally, download the new version file (will automatically update the current version number)
 		if (!$this->download_blacklist_file('version')) return false;
 		
+		$this->blacklist_directory_dirty = false;
 		return true;
 	}
 	
@@ -263,6 +277,7 @@ class SpamFilter
 			}
 			else
 			{
+				// Cannot delete old file. Complain or something?
 				return false;
 			}
 		}
