@@ -23,7 +23,6 @@ isabel marant
 moncler outlet
 vivienne westwood
 gucci
-abercrombie en ligne
 abercrombie\s*(france|canada)
 (eternity|diamond)\s?(ring|earring)
 (sex|masturbation) toys
@@ -38,9 +37,12 @@ sunglasses
 Hermes Bags
 Prada handbag
 cheap toner
-porno loubnane
 colored contacts
 (wedding|engagement) rings?
 
+# Non-English
+elektronik\s?sigara
+porno loubnane
+abercrombie en ligne
 
 
