@@ -47,9 +47,9 @@ ray ban
 led (lamps|lighting|light bulbs)
 
 (official|cheap|authentic|custom|wholesale)\s?(store|shop)
-(official|cheap|authentic|custom|wholesale|elite|womens)\s?jersey
+(official|cheap|authentic|custom|wholesale|elite|womens|signed)\s?jersey
 (bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
-(Cup|Finals|NHL|NFL|NCAA|MLB)\s?(jersey|shirt)
+(Cup|Finals|NHL|NFL|NCAA|MLB|NBA|Basketball)\s?(jersey|shirt)
 (Finals|NCAA)-jersey
 
 # There has got to be a better way to account for all these names rather than just banning the keyword "jersey"
@@ -57,7 +57,8 @@ led (lamps|lighting|light bulbs)
 (Austin|Boychuk|Thornton|Crawford|Hjalmarsson|Mikita|Matthews|Nelson|Rodgers|Dobson|Drew|Blackmon|Howard|Cole|Kane)\s?jersey
 (Horton|Riggins|Paul|Hayes|Moore|Alzado|Battier|Hardaway|Seabrook|Carcillo|Keith|Dalton|Esiason|Ellis|James|Andersen)\s?jersey
 (Bosh|Haslem|Wade|Chalmers|Chiefs|Dawson|McFadden|Tatum|Otto|Hampton|White|Ditka|Forte|Atwer|Sharpe|Bailey|Youngblood)\s?jersey
-(Celek|White|McCoy|Young|Morris|Celek|Bednarik|McDonald)\s?jersey
+(Celek|White|McCoy|Young|Morris|Celek|Bednarik|McDonald|Murray|Turner|Sanders|Ponder|Allen|Carter|Welker|Miller|Bradshaw)\s?jersey
+(Polamalu|Woodson)\s?jersey
 
 The Business Advantage
 Gold Review
