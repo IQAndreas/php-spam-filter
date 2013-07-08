@@ -5,6 +5,7 @@
 # Lines starting with '#' are ignored.
 
 digital\s?performer
+Performer5
 book of ra (deluxe )? online
 
 downloadoemsoftware.co.uk
