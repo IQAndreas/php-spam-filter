@@ -42,6 +42,13 @@ cheap toner
 colored contacts
 (wedding|engagement) rings?
 
+The Business Advantage
+Gold Review
+
+# The \W flag is to make sure these three letter combinations aren't inside of another word.
+# For instance, without the flag, "HGH" would be matched in a "harmless" word such as "witcHGHost"
+\Wwix
+
 # Non-English
 elektronik\s?sigara
 porno loubnane

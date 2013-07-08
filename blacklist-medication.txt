@@ -97,7 +97,11 @@ diet\s?patch
 (menu|zone|acai|mango)\s?diet
 Provigil
 MaleEdge
+HerSolution
+Provestra
 diet\s?review
+
+online pharmacy
 
 # I'm guessing these are considered "organic medication"
 green coffee (bean )?extract
