@@ -17,7 +17,7 @@ dre beats
 beats by dre
 coach (factory )?outlet
 nike\s*(store|shop|gs|shox)
-(official|cheap)\s*(store|shop|jersey)
+(official|cheap|authentic)\s*(store|shop|jersey)
 ugg\s*(sale|boots)
 isabel marant
 (bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
@@ -42,6 +42,7 @@ cheap toner
 colored contacts
 (wedding|engagement) rings?
 insanity workout
+ray ban
 led (lamps|lighting|light bulbs)
 
 The Business Advantage
