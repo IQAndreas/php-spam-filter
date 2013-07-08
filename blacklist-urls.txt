@@ -17,6 +17,7 @@ commentjob.ru
 eekshop.com
 icamtech.com
 isglasses.com
+firefallstore.com
 
 # Any URL that contains these words is evil!
 louisvuitton
