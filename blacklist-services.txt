@@ -40,4 +40,6 @@ home\s?security
 (plumbers?|lawyers?|locksmiths?|storage|repairs?|pest control|electricians?|accountants?|solicitors?) (in)?\s?(north|east|south|west)?\s?(london|vancouver|ottowa|toronto|Mississauga|sydney|Melbourne)
 (debt|financial) (consolidation|relief|advice|management|counselling)
 personal injury solicitor
+credit\s?services
+cash\s?review
 

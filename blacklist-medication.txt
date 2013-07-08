@@ -94,9 +94,10 @@ ClearPores
 JesExtender
 penis\s?health
 diet\s?patch
-(menu|zone|acai)\s?diet
+(menu|zone|acai|mango)\s?diet
 Provigil
 MaleEdge
+diet\s?review
 
 # I'm guessing these are considered "organic medication"
 green coffee (bean )?extract
