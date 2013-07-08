@@ -22,6 +22,8 @@ euroking
 casino crown
 pokies
 
+(chat|live|online|russian)\s?roulette
+
 # Non-English
 machine a sous
 speelautom(aten|aat)
