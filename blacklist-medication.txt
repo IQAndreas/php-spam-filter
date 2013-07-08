@@ -82,6 +82,7 @@ ciprofloxacin
 renova
 Synthroid
 Reductil
+Venapro
 orlistat
 nolvadex
 clonazepam
@@ -94,6 +95,8 @@ JesExtender
 penis\s?health
 diet\s?patch
 (menu|zone|acai)\s?diet
+Provigil
+MaleEdge
 
 # I'm guessing these are considered "organic medication"
 green coffee (bean )?extract

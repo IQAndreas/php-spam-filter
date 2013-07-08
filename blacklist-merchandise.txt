@@ -12,6 +12,7 @@ louboutin
 kobe bryant
 air max
 jimmy choo
+jordan shoes
 dre beats
 beats by dre
 coach (factory )?outlet
@@ -28,6 +29,7 @@ abercrombie\s*(france|canada)
 (sex|masturbation) toys
 cigarette (drops|discounter)
 (cheap|discount|electronic)\s?cigarette
+esmokes
 teeth\s?whitening
 longchamp
 Wayne\s?Rooney
