@@ -44,6 +44,9 @@ colored contacts
 
 The Business Advantage
 Gold Review
+First Choice Capital Resources
+Installment Loan
+Loan Review
 
 # The \W flag is to make sure these three letter combinations aren't inside of another word.
 # For instance, without the flag, "HGH" would be matched in a "harmless" word such as "witcHGHost"
@@ -53,5 +56,5 @@ Gold Review
 elektronik\s?sigara
 porno loubnane
 abercrombie en ligne
-
+banc\s?de\s?swiss
 
