@@ -12,22 +12,16 @@ louboutin
 kobe bryant
 Air Max
 Air Jordan
+Nike Huarache
 jimmy choo
 jordan shoes
 dre beats
 beats by dre
 coach (factory )?outlet
 nike\s*(store|shop|gs|shox)
-(official|cheap|authentic|custom|wholesale)\s?(store|shop)
-(official|cheap|authentic|custom|wholesale|elite|womens)\s?jersey
-(Toews|Bruins|Lucic|Savard|Leddy|Magnuson|Hall|Griswold|Leonard|Spurs|Jackson|Tebow|Mcgrady|Green|Spiller|Ware|Dorsett)\s?jersey
-(Austin|Boychuk|Thornton|Crawford|Hjalmarsson|Mikita|Matthews|Nelson|Rodgers|Dobson|Drew|Blackmon|Howard|Cole|Kane)\s?jersey
-(Horton|Riggins|Paul)\s?jersey
-(Cup|Finals|NHL|NFL|NCAA|MLB)\s?jersey
 FitFlops
 ugg\s*(sale|boots)
 isabel marant
-(bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
 moncler outlet
 vivienne westwood
 gucci
@@ -51,6 +45,16 @@ colored contacts
 insanity workout
 ray ban
 led (lamps|lighting|light bulbs)
+
+(official|cheap|authentic|custom|wholesale)\s?(store|shop)
+(official|cheap|authentic|custom|wholesale|elite|womens)\s?jersey
+(bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
+(Cup|Finals|NHL|NFL|NCAA|MLB)\s?jersey
+
+# There has got to be a better way to account for all these names rather than just banning the keyword "jersey"
+(Toews|Bruins|Lucic|Savard|Leddy|Magnuson|Hall|Griswold|Leonard|Spurs|Jackson|Tebow|Mcgrady|Green|Spiller|Ware|Dorsett)\s?jersey
+(Austin|Boychuk|Thornton|Crawford|Hjalmarsson|Mikita|Matthews|Nelson|Rodgers|Dobson|Drew|Blackmon|Howard|Cole|Kane)\s?jersey
+(Horton|Riggins|Paul|Hayes|Moore|Alzado|Battier|Hardaway|Seabrook|Carcillo|Keith|Dalton|Esiason|Ellis)\s?jersey
 
 The Business Advantage
 Gold Review
