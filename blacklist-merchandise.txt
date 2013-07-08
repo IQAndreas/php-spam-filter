@@ -17,8 +17,10 @@ dre beats
 beats by dre
 coach (factory )?outlet
 nike\s*(store|shop|gs|shox)
-(official|cheap|authentic|custom|wholesale)\s*(store|shop|jersey)
-(Cup|Toews|Bruins|Lucic|Savard|Leddy)\s?jersey
+(official|cheap|authentic|custom|wholesale)\s?(store|shop)
+(official|cheap|authentic|custom|wholesale|elite|womens)\s?jersey
+(Toews|Bruins|Lucic|Savard|Leddy|Magnuson|Hall|Griswold)\s?jersey
+(Cup|NHL|NFL|NCAA)\s?jersey
 FitFlops
 ugg\s*(sale|boots)
 isabel marant
