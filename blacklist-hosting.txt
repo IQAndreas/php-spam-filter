@@ -10,6 +10,8 @@ just host
 host review
 vpn download
 
+XRumer
+
 #I'm tired of this crap. From now on, NO ONE may mention Host Monster!
 host\s?monster
 blue\s?host

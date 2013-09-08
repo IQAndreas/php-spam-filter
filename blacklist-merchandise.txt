@@ -7,6 +7,7 @@
 replica (Rolex|watch)
 Louis\s?Vuitton
 Ralph\s?Lauren
+(celine|chanel)\s?(hand)?\s?bag
 Jeremiah wann
 louboutin
 kobe bryant
@@ -45,9 +46,10 @@ colored contacts
 insanity workout
 ray ban
 led (lamps|lighting|light bulbs)
+toms shoes
+cheap hats
 
-(official|cheap|authentic|custom|wholesale)\s?(store|shop)
-(official|cheap|authentic|custom|wholesale|elite|womens|signed)\s?jersey
+(official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
 (Cup|Finals|NHL|NFL|NCAA|MLB|NBA|Basketball)\s?(jersey|shirt)
 (Finals|NCAA)-jersey
@@ -59,6 +61,7 @@ led (lamps|lighting|light bulbs)
 (Bosh|Haslem|Wade|Chalmers|Chiefs|Dawson|McFadden|Tatum|Otto|Hampton|White|Ditka|Forte|Atwer|Sharpe|Bailey|Youngblood)\s?jersey
 (Celek|White|McCoy|Young|Morris|Celek|Bednarik|McDonald|Murray|Turner|Sanders|Ponder|Allen|Carter|Welker|Miller|Bradshaw)\s?jersey
 (Polamalu|Woodson|Belfour|Hull|Larmer)\s?jersey
+(Cowboys|Escobar|Newhouse|Saints|Vaccaro|Manuel|Bills|Dolphins)\s?jersey
 
 The Business Advantage
 Gold Review
