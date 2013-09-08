@@ -93,8 +93,8 @@ oxycodone
 ClearPores
 JesExtender
 penis\s?health
-diet\s?patch
-(menu|zone|acai|mango)\s?diet
+diet\s?(patch|review)
+(menu|zone|acai|mango|atkins)\s?diet
 Provigil
 MaleEdge
 HerSolution
@@ -102,7 +102,21 @@ Provestra
 Lunesta
 Proextender
 Provacyl
-diet\s?review
+ProShapeRX
+Norvasc
+Kollagen\s?Intensiv
+dermaperfect
+VP-?RX
+Zyrtec
+Sudafed
+Maxoderm
+Finasteride
+Seroquel
+rhinoplasty
+liposuction
+breastreduction
+hairremoval
+breastlift
 
 online pharmacy
 pharmacima.us

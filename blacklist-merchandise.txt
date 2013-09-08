@@ -58,13 +58,15 @@ led (lamps|lighting|light bulbs)
 (Horton|Riggins|Paul|Hayes|Moore|Alzado|Battier|Hardaway|Seabrook|Carcillo|Keith|Dalton|Esiason|Ellis|James|Andersen)\s?jersey
 (Bosh|Haslem|Wade|Chalmers|Chiefs|Dawson|McFadden|Tatum|Otto|Hampton|White|Ditka|Forte|Atwer|Sharpe|Bailey|Youngblood)\s?jersey
 (Celek|White|McCoy|Young|Morris|Celek|Bednarik|McDonald|Murray|Turner|Sanders|Ponder|Allen|Carter|Welker|Miller|Bradshaw)\s?jersey
-(Polamalu|Woodson)\s?jersey
+(Polamalu|Woodson|Belfour|Hull|Larmer)\s?jersey
 
 The Business Advantage
 Gold Review
 First Choice Capital Resources
 Installment Loan
 Loan Review
+
+groceryforless
 
 # The \W flag is to make sure these three letter combinations aren't inside of another word.
 # For instance, without the flag, "HGH" would be matched in a "harmless" word such as "witcHGHost"

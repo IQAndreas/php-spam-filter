@@ -23,6 +23,7 @@ casino crown
 pokies
 
 (chat|live|online|russian)\s?roulette
+(Xhamster|spicy)\s?roulette
 
 # Non-English
 machine a sous
