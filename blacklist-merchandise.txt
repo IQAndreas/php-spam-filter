@@ -48,20 +48,24 @@ ray ban
 led (lamps|lighting|light bulbs)
 toms shoes
 cheap hats
+Nike\s?Free
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
-(Cup|Finals|NHL|NFL|NCAA|MLB|NBA|Basketball)\s?(jersey|shirt)
-(Finals|NCAA)-jersey
+#(Cup|Finals|NHL|NFL|NCAA|MLB|NBA|Basketball)\s?(jersey|shirt)
+#(Finals|NCAA)-jersey
 
 # There has got to be a better way to account for all these names rather than just banning the keyword "jersey"
-(Toews|Bruins|Lucic|Savard|Leddy|Magnuson|Hall|Griswold|Leonard|Spurs|Jackson|Tebow|Mcgrady|Green|Spiller|Ware|Dorsett)\s?jersey
-(Austin|Boychuk|Thornton|Crawford|Hjalmarsson|Mikita|Matthews|Nelson|Rodgers|Dobson|Drew|Blackmon|Howard|Cole|Kane)\s?jersey
-(Horton|Riggins|Paul|Hayes|Moore|Alzado|Battier|Hardaway|Seabrook|Carcillo|Keith|Dalton|Esiason|Ellis|James|Andersen)\s?jersey
-(Bosh|Haslem|Wade|Chalmers|Chiefs|Dawson|McFadden|Tatum|Otto|Hampton|White|Ditka|Forte|Atwer|Sharpe|Bailey|Youngblood)\s?jersey
-(Celek|White|McCoy|Young|Morris|Celek|Bednarik|McDonald|Murray|Turner|Sanders|Ponder|Allen|Carter|Welker|Miller|Bradshaw)\s?jersey
-(Polamalu|Woodson|Belfour|Hull|Larmer)\s?jersey
-(Cowboys|Escobar|Newhouse|Saints|Vaccaro|Manuel|Bills|Dolphins)\s?jersey
+#(Toews|Bruins|Lucic|Savard|Leddy|Magnuson|Hall|Griswold|Leonard|Spurs|Jackson|Tebow|Mcgrady|Green|Spiller|Ware|Dorsett)\s?jersey
+#(Austin|Boychuk|Thornton|Crawford|Hjalmarsson|Mikita|Matthews|Nelson|Rodgers|Dobson|Drew|Blackmon|Howard|Cole|Kane)\s?jersey
+#(Horton|Riggins|Paul|Hayes|Moore|Alzado|Battier|Hardaway|Seabrook|Carcillo|Keith|Dalton|Esiason|Ellis|James|Andersen)\s?jersey
+#(Bosh|Haslem|Wade|Chalmers|Chiefs|Dawson|McFadden|Tatum|Otto|Hampton|White|Ditka|Forte|Atwer|Sharpe|Bailey|Youngblood)\s?jersey
+#(Celek|White|McCoy|Young|Morris|Celek|Bednarik|McDonald|Murray|Turner|Sanders|Ponder|Allen|Carter|Welker|Miller|Bradshaw)\s?jersey
+#(Polamalu|Woodson|Belfour|Hull|Larmer)\s?jersey
+#(Cowboys|Escobar|Newhouse|Saints|Vaccaro|Manuel|Bills|Dolphins|Johnson|Eagles|Bengals|Hunt|Eiftert|Cardinals|Mathieu|Texans|Hopkins)\s?jersey
+
+# SCREW THIS! No one is allowed to say "jersey!!"
+jersey
 
 The Business Advantage
 Gold Review
@@ -70,6 +74,9 @@ Installment Loan
 Loan Review
 
 groceryforless
+
+# This is a "catch all" for all this crap
+wholesale
 
 # The \W flag is to make sure these three letter combinations aren't inside of another word.
 # For instance, without the flag, "HGH" would be matched in a "harmless" word such as "witcHGHost"
