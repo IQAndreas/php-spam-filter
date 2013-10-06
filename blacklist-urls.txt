@@ -18,6 +18,7 @@ eekshop.com
 icamtech.com
 isglasses.com
 firefallstore.com
+gmbal.com
 
 # Any URL that contains these words is evil!
 louisvuitton
