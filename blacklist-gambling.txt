@@ -4,7 +4,7 @@
 # All keywords are case insensitive.
 # Lines starting with '#' are ignored.
 
-(fun|free|online|en ligne|gold|gratuits?|mobile|samsung|casinos?|slots?)\s*(gambling|texas|casino|black\s?jack|poker|roulette|slots|keno)
+(fun|free|online|en ligne|gold|gratuits?|mobile|samsung|casinos?|slots?|paypal)\s*(gambling|texas|casino|black\s?jack|poker|roulette|slots|keno)
 (blackjack|roulette|casino|poker|slot( machine)?) (bonus|online|en ligne|virtuel|betting)
 (video|penny|machine) slots
 slots? (games|card|for fun|machine|online)

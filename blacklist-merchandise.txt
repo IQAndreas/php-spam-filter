@@ -49,6 +49,8 @@ led (lamps|lighting|light bulbs)
 toms shoes
 cheap hats
 Nike\s?Free
+male models
+dancing bear
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
