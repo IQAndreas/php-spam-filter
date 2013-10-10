@@ -50,7 +50,8 @@ toms shoes
 cheap hats
 Nike\s?Free
 male models
-dancing bear
+dancing\s?bear
+hidden cam
 Green Smoke
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)
