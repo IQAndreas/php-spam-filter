@@ -80,6 +80,11 @@ Mulberry
 Nike
 Tiffany Jewelry
 Armani
+Von Maur
+Vera Bradley
+Goyard
+Marc Jacobs
+Oakley
 
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)

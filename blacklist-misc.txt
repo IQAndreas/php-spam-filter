@@ -14,3 +14,6 @@ https?:\/\/[^\/]+\.pl\/\S*\?p=\d{2,8}
 <a href="[^"]*">Casino<\/a>
 <a href="[^"]*">HGH<\/a>
 
+# This is literally the entire comment they leave.
+# Oh well, it makes my job easier.
+X\?h
