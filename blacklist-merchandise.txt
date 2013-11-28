@@ -57,6 +57,9 @@ moncler
 parajumpers?
 pas cher
 north face
+Barbour
+House of Harlow
+miu miu
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
