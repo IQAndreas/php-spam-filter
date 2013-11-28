@@ -63,9 +63,18 @@ miu miu
 Herve Leger
 Humboldt
 Belstaff
-Canada Goose jacket
+Canada Goose (jacket|jakker|parka)
 Prada
 Givenchy
+Wellensteyn
+Woolrich
+Burberry
+Hollister
+Chennai
+duvetica
+Dior (bag|shoes?)
+Duvetica
+Kevin Durant
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
