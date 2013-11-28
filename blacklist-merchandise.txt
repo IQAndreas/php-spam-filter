@@ -79,6 +79,7 @@ Abercrombie
 Mulberry
 Nike
 Tiffany Jewelry
+Armani
 
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)

@@ -14,6 +14,10 @@ cdkey
 key sale
 upgrade key
 
+seo (plugin|tips|optimization)
+PageRank
+Alexa Ranking
+
 (wow|archeage|runscape|diablo\s?3?|firefall)\s?gold
 dc universe online cash
 (diablo 3|d3|guild wars 2|gw2) guide
