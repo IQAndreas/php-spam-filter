@@ -89,6 +89,7 @@ wholesale
 # The \W flag is to make sure these three letter combinations aren't inside of another word.
 # For instance, without the flag, "HGH" would be matched in a "harmless" word such as "witcHGHost"
 \Wwix
+\Wuggs?\W
 
 # Non-English
 elektronik\s?sigara
