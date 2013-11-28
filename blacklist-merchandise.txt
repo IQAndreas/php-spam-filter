@@ -63,7 +63,7 @@ miu miu
 Herve Leger
 Humboldt
 Belstaff
-Canada Goose (jacket|jakker|parka)
+Canada Goose (jacket|jakker|parka|outlet)
 Prada
 Givenchy
 Wellensteyn
@@ -75,6 +75,11 @@ duvetica
 Dior (bag|shoes?)
 Duvetica
 Kevin Durant
+Abercrombie
+Mulberry
+Nike
+Tiffany Jewelry
+
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
