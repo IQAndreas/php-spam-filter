@@ -53,6 +53,10 @@ male models
 dancing\s?bear
 hidden cam
 Green Smoke
+moncler
+parajumpers?
+pas cher
+north face
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
