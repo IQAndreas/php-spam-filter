@@ -16,7 +16,7 @@ https?:\/\/[^\/]+\.pl\/\S*\?p=\d{2,8}
 
 # Fake email addresses
 @{gmail\|hotmail\|aol\.com
-dsaf*@gmail.com
+dsaf\*@gmail\.com
 
 # Matches fake email addresses like '**wmmw**@gmail.com'
 \*\*[^@']+@[^\.]+\.com
