@@ -9,5 +9,5 @@
 cl_prem:
 %url%
 %BLOGTITLE%
-
+%title%
 

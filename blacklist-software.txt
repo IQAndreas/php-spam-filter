@@ -22,7 +22,7 @@ website traffic
 free visitors
 visitors per (day|month)
 
-(wow|archeage|runscape|diablo 3?|firefall) gold
+(wow|archeage|runscape|diablo 3?|firefall|scrolls online) gold
 xbox (live)? gold
 dc universe online cash
 (diablo 3|d3|guild wars 2|gw2) guide

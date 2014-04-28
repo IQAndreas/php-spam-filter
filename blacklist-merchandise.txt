@@ -15,8 +15,8 @@ Air Max
 Air Jordan
 Nike Huarache
 jimmy choo
-jordan shoes
-cheap jordans?
+jordan (shoes|high tops|six wings)
+cheap (jordans?|adidas)
 dre beats
 beats by dre
 coach (factory )?outlet
@@ -94,7 +94,9 @@ new balance
 hermes handbags?
 replica (hand)?bags
 madrid asics
-
+asics nimbus
+adidas f10
+jordans
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
