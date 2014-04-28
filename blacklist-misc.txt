@@ -27,3 +27,8 @@ dsaf\*@gmail\.com
 # This is literally the entire comment they leave.
 # Oh well, it makes my job easier.
 X\?h
+
+# The name used by one Singaporian spambot
+Bexneultynunk
+
+
