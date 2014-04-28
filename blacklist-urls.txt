@@ -34,7 +34,7 @@ okdating.info
 funonlinedating.info
 oksingles.info
 pollydirectory.info
-*escorts.com
+escorts.com # Usually ends with this
 
 studio-gong.si
 
