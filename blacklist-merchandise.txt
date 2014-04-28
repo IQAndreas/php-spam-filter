@@ -5,9 +5,9 @@
 # Lines starting with '#' are ignored.
 
 replica (Rolex|watch)
-Louis\s?Vuitton
-Ralph\s?Lauren
-(celine|chanel)\s?(hand)?\s?bag
+Louis Vuitton
+Ralph Lauren
+(celine|chanel) (hand)? bag
 Jeremiah wann
 louboutin
 kobe bryant
@@ -15,7 +15,7 @@ Air Max
 Air Jordan
 Nike Huarache
 jimmy choo
-jordan (shoes|high tops|six wings)
+jordan (shoes|high tops|six rings)
 cheap (jordans?|adidas)
 dre beats
 beats by dre
@@ -28,15 +28,15 @@ moncler outlet
 vivienne westwood
 gucci
 abercrombie\s*(france|canada)
-(eternity|diamond)\s?(ring|earring)
+(eternity|diamond) (ring|earring)
 (sex|masturbation) toys
 cigarette (drops|discounter)
-(cheap|discount|electronic)\s?cigarette
+(cheap|discount|electronic) cigarette
 esmokes
-teeth\s?whitening
+teeth whitening
 longchamp
-Wayne\s?Rooney
-Michael\s?Kors
+Wayne Rooney
+Michael Kors
 onlinebags
 sunglasses
 Hermes Bags
@@ -50,9 +50,9 @@ led (lamps|lighting|light bulbs|flood lights|spotlight)
 canada (goose|geese)
 toms shoes
 cheap hats
-Nike\s?Free
+Nike Free
 male models
-dancing\s?bear
+dancing bear
 hidden cam
 Green Smoke
 moncler
@@ -98,19 +98,19 @@ asics nimbus
 adidas f10
 jordans
 
-(official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)
+(official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed) (jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
-#(Cup|Finals|NHL|NFL|NCAA|MLB|NBA|Basketball)\s?(jersey|shirt)
+#(Cup|Finals|NHL|NFL|NCAA|MLB|NBA|Basketball) (jersey|shirt)
 #(Finals|NCAA)-jersey
 
 # There has got to be a better way to account for all these names rather than just banning the keyword "jersey"
-#(Toews|Bruins|Lucic|Savard|Leddy|Magnuson|Hall|Griswold|Leonard|Spurs|Jackson|Tebow|Mcgrady|Green|Spiller|Ware|Dorsett)\s?jersey
-#(Austin|Boychuk|Thornton|Crawford|Hjalmarsson|Mikita|Matthews|Nelson|Rodgers|Dobson|Drew|Blackmon|Howard|Cole|Kane)\s?jersey
-#(Horton|Riggins|Paul|Hayes|Moore|Alzado|Battier|Hardaway|Seabrook|Carcillo|Keith|Dalton|Esiason|Ellis|James|Andersen)\s?jersey
-#(Bosh|Haslem|Wade|Chalmers|Chiefs|Dawson|McFadden|Tatum|Otto|Hampton|White|Ditka|Forte|Atwer|Sharpe|Bailey|Youngblood)\s?jersey
-#(Celek|White|McCoy|Young|Morris|Celek|Bednarik|McDonald|Murray|Turner|Sanders|Ponder|Allen|Carter|Welker|Miller|Bradshaw)\s?jersey
-#(Polamalu|Woodson|Belfour|Hull|Larmer)\s?jersey
-#(Cowboys|Escobar|Newhouse|Saints|Vaccaro|Manuel|Bills|Dolphins|Johnson|Eagles|Bengals|Hunt|Eiftert|Cardinals|Mathieu|Texans|Hopkins)\s?jersey
+#(Toews|Bruins|Lucic|Savard|Leddy|Magnuson|Hall|Griswold|Leonard|Spurs|Jackson|Tebow|Mcgrady|Green|Spiller|Ware|Dorsett) jersey
+#(Austin|Boychuk|Thornton|Crawford|Hjalmarsson|Mikita|Matthews|Nelson|Rodgers|Dobson|Drew|Blackmon|Howard|Cole|Kane) jersey
+#(Horton|Riggins|Paul|Hayes|Moore|Alzado|Battier|Hardaway|Seabrook|Carcillo|Keith|Dalton|Esiason|Ellis|James|Andersen) jersey
+#(Bosh|Haslem|Wade|Chalmers|Chiefs|Dawson|McFadden|Tatum|Otto|Hampton|White|Ditka|Forte|Atwer|Sharpe|Bailey|Youngblood) jersey
+#(Celek|White|McCoy|Young|Morris|Celek|Bednarik|McDonald|Murray|Turner|Sanders|Ponder|Allen|Carter|Welker|Miller|Bradshaw) jersey
+#(Polamalu|Woodson|Belfour|Hull|Larmer) jersey
+#(Cowboys|Escobar|Newhouse|Saints|Vaccaro|Manuel|Bills|Dolphins|Johnson|Eagles|Bengals|Hunt|Eiftert|Cardinals|Mathieu|Texans|Hopkins) jersey
 
 # SCREW THIS! No one is allowed to say "jersey!!"
 jersey
@@ -132,8 +132,9 @@ wholesale
 \Wuggs?\W
 
 # Non-English
-elektronik\s?sigara
+elektronik sigara
 porno loubnane
 abercrombie en ligne
-banc\s?de\s?swiss
+banc de swiss
+(calzado|zapatos) MBT
 
