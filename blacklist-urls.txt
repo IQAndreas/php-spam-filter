@@ -35,6 +35,8 @@ funonlinedating.info
 oksingles.info
 pollydirectory.info
 
+studio-gong.si
+
 # Any URL that contains these words is evil!
 louisvuitton
 paydayloan
