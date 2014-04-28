@@ -19,6 +19,8 @@ PageRank
 Alexa Ranking
 traffic to your (web)?site
 website traffic
+free visitors
+visitors per (day|month)
 
 (wow|archeage|runscape|diablo\s?3?|firefall)\s?gold
 dc universe online cash

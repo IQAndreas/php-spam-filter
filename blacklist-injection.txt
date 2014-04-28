@@ -9,8 +9,5 @@
 cl_prem:
 %url%
 %BLOGTITLE%
-@{gmail\|hotmail\|aol\.com
 
-# Matches fake email addresses like '**wmmw**@gmail.com'
-\*\*[^@']+@[^\.]+\.com
 
