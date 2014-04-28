@@ -4,7 +4,7 @@
 # All keywords are case insensitive.
 # Lines starting with '#' are ignored.
 
-digital\s?performer
+digital performer
 Performer5
 book of ra (deluxe )? online
 iPhone porn
@@ -22,7 +22,8 @@ website traffic
 free visitors
 visitors per (day|month)
 
-(wow|archeage|runscape|diablo\s?3?|firefall)\s?gold
+(wow|archeage|runscape|diablo 3?|firefall) gold
+xbox (live)? gold
 dc universe online cash
 (diablo 3|d3|guild wars 2|gw2) guide
 (diablo 3|d3|guild wars 2|gw2) power leveling

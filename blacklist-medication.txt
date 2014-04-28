@@ -37,10 +37,10 @@ Nizoral
 Natox
 vimax
 flagyl
-Garcinia\s?cambogia
-Zeta\s?clear
+Garcinia cambogia
+Zeta clear
 acne treatment
-volume\s?pills
+volume pills
 SizeGenetics
 eye secrets
 tramadol
@@ -48,7 +48,7 @@ imitrex
 amoxil
 zovirax
 proactol
-pro\s*solution
+pro solution
 dapoxetine
 vigorelle
 cytotec
@@ -63,13 +63,13 @@ male edge
 GenF20
 human growth hormone
 Nuratrim
-Phen\s?375
+Phen 375
 volume pills
-anti\s?aging
+anti aging
 hair loss
-Har\s?Vokse
+Har Vokse
 Clear Skin Max
-hide\s*my\s*ass
+hide my ass
 Garcinia
 cambogia
 Ativan
@@ -88,14 +88,15 @@ orlistat
 nolvadex
 clonazepam
 prozac
-weight\s?loss
+weight loss
+fat loss
 Meridia
 oxycodone
 ClearPores
 JesExtender
-penis\s?health
-diet\s?(patch|review)
-(menu|zone|acai|mango|atkins)\s?diet
+penis health
+diet (patch|review)
+(menu|zone|acai|mango|atkins) diet
 Provigil
 MaleEdge
 HerSolution
@@ -105,7 +106,7 @@ Proextender
 Provacyl
 ProShapeRX
 Norvasc
-Kollagen\s?Intensiv
+Kollagen Intensiv
 dermaperfect
 VP-?RX
 Zyrtec
