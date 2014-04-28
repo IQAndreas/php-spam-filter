@@ -18,6 +18,7 @@ seo (plugin|tips|optimization)
 PageRank
 Alexa Ranking
 traffic to your (web)?site
+website traffic
 
 (wow|archeage|runscape|diablo\s?3?|firefall)\s?gold
 dc universe online cash

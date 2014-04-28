@@ -23,6 +23,9 @@ mortalpath.com
 newfathersfoundation.com
 2hams.com
 accessfree.info
+aircool.fr
+bath-confetti.com
+
 
 # Any URL that contains these words is evil!
 louisvuitton
