@@ -19,6 +19,10 @@ icamtech.com
 isglasses.com
 firefallstore.com
 gmbal.com
+mortalpath.com
+newfathersfoundation.com
+2hams.com
+accessfree.info
 
 # Any URL that contains these words is evil!
 louisvuitton

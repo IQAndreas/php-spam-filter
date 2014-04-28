@@ -38,6 +38,7 @@ Make Me a Millionaire
 Car rental
 Cheap flights
 XLgirls
+cash for cars
 
 home\s?security
 (criminal|defense|family) lawyer

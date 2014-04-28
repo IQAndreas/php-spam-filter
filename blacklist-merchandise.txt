@@ -85,6 +85,8 @@ Vera Bradley
 Goyard
 Marc Jacobs
 Oakley
+Babyliss
+red bottom shoes
 
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed)\s?(jersey|store|shop)
