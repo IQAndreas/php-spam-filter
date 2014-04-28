@@ -8,8 +8,7 @@
 # but I'm sorting the best that I can. Remember that you can always
 # disble some keywords by prefixing them with the `#` character.
 
-cash\s*loan
-car\s*loan
+(cash|car|personal) loan
 cars? for sale
 7 Seater Car
 credit repair
@@ -39,7 +38,7 @@ Car rental
 Cheap flights
 XLgirls
 cash for cars
-Escort Napoli
+Escort (Napoli|Milano)
 
 home\s?security
 (criminal|defense|family) lawyer
@@ -50,4 +49,5 @@ home\s?security
 personal injury solicitor
 credit\s?services
 cash\s?review
+
 
