@@ -46,7 +46,7 @@ colored contacts
 (wedding|engagement) rings?
 insanity workout
 ray ban
-led (lamps|lighting|light bulbs)
+led (lamps|lighting|light bulbs|flood lights|spotlight)
 toms shoes
 cheap hats
 Nike\s?Free

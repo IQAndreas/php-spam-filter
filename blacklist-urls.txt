@@ -33,6 +33,7 @@ plentyoffish.info
 okdating.info
 funonlinedating.info
 oksingles.info
+pollydirectory.info
 
 # Any URL that contains these words is evil!
 louisvuitton
