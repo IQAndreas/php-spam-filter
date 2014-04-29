@@ -45,6 +45,7 @@ free job search
 paydayz
 make money
 marketing (manager|maneger|online)
+webcam chat
 
 home\s?security
 (criminal|defense|family) lawyer
@@ -55,5 +56,10 @@ home\s?security
 personal injury solicitor
 credit\s?services
 cash\s?review
+
+# Not English
+(voyance|rune|horoscope|tarot) gratuite
+
+
 
 

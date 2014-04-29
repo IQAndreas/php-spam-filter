@@ -14,7 +14,7 @@ Air Max
 Air Jordan
 Nike Huarache
 jimmy choo
-jordan (shoes|high tops|six rings|3|retro)
+jordan (shoes|high tops|six rings|3|retro|releases)
 cheap (jordans?|adidas)
 dre beats
 beats by dre
@@ -29,7 +29,7 @@ abercrombie (france|canada)
 (eternity|diamond) (ring|earring)
 (sex|masturbation) toys
 cigarette (drops|discounter)
-(cheap|discount|electronic) cigarette
+(cheap|discount|electronic|Newport) cigarette
 esmokes
 teeth whitening
 longchamp
@@ -97,6 +97,7 @@ swarovski
 GHD outlet
 Tiffany (outlet|uk|silver|store|sale)
 atlas cube
+Converse All-Stars
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed) (jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens) (store|online|jersey|official)
