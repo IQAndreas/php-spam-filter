@@ -88,7 +88,7 @@ orlistat
 nolvadex
 clonazepam
 prozac
-weight loss
+weight (gain|loss)
 fat loss
 Meridia
 oxycodone
@@ -149,9 +149,22 @@ dilaudid
 Barbadensis
 Gymnema sylvestre
 Plantar Fasciitis
+Ibuprofen
+Erythromycin
+Methotrexate
+Amantadine
+Sulfameth
+Trimethoprim
+Crestor
+Digoxin
+Bupropion
+Rogaine
+Codeine
+Augmentin
+Mefenamic Acid
+Ulcerative
 
-dietas para bajar #Weight loss
-
+no perscription
 online pharmacy
 pharmacima.us
 nantes-chercheur.org #Oriental medicine
@@ -168,5 +181,10 @@ green coffee (bean )?extract
 \Whgh
 \Whcg
 \Wtmj
+
+
+# Not English
+dietas para bajar #Weight loss
+
 
 

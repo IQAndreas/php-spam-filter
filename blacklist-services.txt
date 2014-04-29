@@ -38,13 +38,13 @@ Car rental
 Cheap flights
 XLgirls
 cash for cars
-escorts? (in|of)?\s?(Napoli|Milano|Dubai)
-(Napoli|Milano|Dubai) escorts?
+escorts? (in|of)?\s?(Napoli|Milano|Dubai|Roma)
+(Napoli|Milano|Dubai|Roma) escorts?
 travel accommodation
 free job search
 paydayz
 make money
-marketing (manager|maneger)
+marketing (manager|maneger|online)
 
 home\s?security
 (criminal|defense|family) lawyer
