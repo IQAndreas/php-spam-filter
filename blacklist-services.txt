@@ -38,7 +38,7 @@ Car rental
 Cheap flights
 XLgirls
 cash for cars
-Escort (Napoli|Milano)
+escorts? (in|of)?\s?(Napoli|Milano|Dubai)
 
 home\s?security
 (criminal|defense|family) lawyer

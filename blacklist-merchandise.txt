@@ -20,14 +20,13 @@ cheap (jordans?|adidas)
 dre beats
 beats by dre
 coach (factory )?outlet
-nike\s*(store|shop|gs|shox)
+nike (store|shop|gs|shox)
 FitFlops
-ugg\s*(sale|boots)
+ugg (sale|boots)
 isabel marant
-moncler outlet
 vivienne westwood
 gucci
-abercrombie\s*(france|canada)
+abercrombie (france|canada)
 (eternity|diamond) (ring|earring)
 (sex|masturbation) toys
 cigarette (drops|discounter)
@@ -39,7 +38,7 @@ Wayne Rooney
 Michael Kors
 onlinebags
 sunglasses
-Hermes Bags
+(moncler|hermes) (bags|outlet)
 Prada handbag
 cheap toner
 colored contacts
@@ -97,9 +96,10 @@ madrid asics
 asics nimbus
 adidas f10
 jordans
+swarovski
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed) (jersey|store|shop)
-(bears|patriots|seahawks|packers|ravens)\s*(store|online|jersey|official)
+(bears|patriots|seahawks|packers|ravens) (store|online|jersey|official)
 #(Cup|Finals|NHL|NFL|NCAA|MLB|NBA|Basketball) (jersey|shirt)
 #(Finals|NCAA)-jersey
 
