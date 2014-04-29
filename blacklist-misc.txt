@@ -31,4 +31,7 @@ X\?h
 # The name used by one Singaporian spambot
 Bexneultynunk
 
+# Why would this appear as the URL for so many spamz?
+http:\/\/cnn\.com
+
 

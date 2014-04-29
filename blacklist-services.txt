@@ -39,6 +39,9 @@ Cheap flights
 XLgirls
 cash for cars
 escorts? (in|of)?\s?(Napoli|Milano|Dubai)
+travel accomodation
+free job search
+paydayz
 
 home\s?security
 (criminal|defense|family) lawyer
