@@ -7,7 +7,6 @@
 replica (Rolex|watch)
 Louis Vuitton
 Ralph Lauren
-(celine|chanel) (hand)? bag
 Jeremiah wann
 louboutin
 kobe bryant
@@ -39,7 +38,6 @@ Michael Kors
 onlinebags
 sunglasses
 (moncler|hermes) (bags|outlet)
-Prada handbag
 cheap toner
 colored contacts
 (wedding|engagement) rings?
@@ -47,7 +45,7 @@ insanity workout
 ray ban
 led (lamps|lighting|light bulbs|flood lights|spotlight)
 canada (goose|geese)
-toms shoes
+(DC|red bottom|toms) shoes
 cheap hats
 Nike Free
 male models
@@ -87,11 +85,9 @@ Goyard
 Marc Jacobs
 Oakley
 Babyliss
-red bottom shoes
 Fitflop Fiorella
 new balance
-hermes handbags?
-replica (hand)?bags
+(Hermes|Chloe Cyndi|replica|Celine|Chanel|Prada) (hand)?bags?
 madrid asics
 asics nimbus
 adidas (f10|predator)

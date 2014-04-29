@@ -43,6 +43,8 @@ escorts? (in|of)?\s?(Napoli|Milano|Dubai)
 travel accommodation
 free job search
 paydayz
+make money
+marketing (manager|maneger)
 
 home\s?security
 (criminal|defense|family) lawyer
