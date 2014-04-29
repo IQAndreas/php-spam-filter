@@ -14,14 +14,14 @@ Air Max
 Air Jordan
 Nike Huarache
 jimmy choo
-jordan (shoes|high tops|six rings|3|retro|releases|1)
+jordan (shoes|high tops|six rings|3|retro|releases|1|6)
 cheap (jordans?|adidas)
 dre beats
 beats by dre
 coach (factory|outlet)
 nike (store|shop|gs|shox)
-FitFlops
-ugg (sale|boots)
+FitFlops?
+(hunter|ugg) (sale|boots|outlet)
 isabel marant
 vivienne westwood
 gucci
@@ -87,11 +87,11 @@ Oakley
 Babyliss
 Fitflop Fiorella
 new balance
-(Hermes|Chloe Cyndi|replica|Celine|Chanel|Prada) (hand)?bags?
+(Hermes|Chloe Cyndi|replica|Celine|Chanel|Prada|MCM) (hand)?bags?
 chanel tasche
 madrid asics
 asics (nimbus|aaron)
-adidas (f10|predator|11pro)
+adidas (f10|predator|11pro|trx)
 jordans
 swarovski
 (humidifier|cookware) review
@@ -110,6 +110,7 @@ outlet mbt
 Gamma Blue 11s
 Bred 11s
 Taxi 12s
+true religion (jeans|outlet|sale)
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed) (jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens) (store|online|jersey|official)
