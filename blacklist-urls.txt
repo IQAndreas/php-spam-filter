@@ -28,17 +28,17 @@ bath-confetti\.com
 robotfinance\.fr
 fightingfatforfit
 
-naszprogrampit\.pl
-programydopit2014\.pl
-pityprzeznet\.pl
-programypit2014\.pl
-programypity2014\.pl
-eprogrampity\.pl
-nowyprogrampit\.pl
-programpit2014\.eu
-nowyprogram\.pl
-dobryprogrampity\.pl
-program[^\.]\.pl
+program[^\.]*\.pl
+#naszprogrampit\.pl
+#programydopit2014\.pl
+#pityprzeznet\.pl
+#programypit2014\.pl
+#programypity2014\.pl
+#eprogrampity\.pl
+#nowyprogrampit\.pl
+#programpit2014\.eu
+#nowyprogram\.pl
+#dobryprogrampity\.pl
 
 # Dating sites
 loveepicentre\.com
