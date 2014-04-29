@@ -90,8 +90,8 @@ new balance
 (Hermes|Chloe Cyndi|replica|Celine|Chanel|Prada) (hand)?bags?
 chanel tasche
 madrid asics
-asics (nimbus|aaron|11pro)
-adidas (f10|predator)
+asics (nimbus|aaron)
+adidas (f10|predator|11pro)
 jordans
 swarovski
 (humidifier|cookware) review
@@ -100,11 +100,16 @@ Tiffany (outlet|uk|silver|store|sale)
 atlas cube
 Converse All-Stars
 Pandora bracelets
-toms (sale|outlet)
+(mbt|toms) (for sale|sale|outlet)
 cheap toms
 calvin klein
 casquette (swagg|obey|snapback)
 offerte hogan
+ceinture diesel
+outlet mbt
+Gamma Blue 11s
+Bred 11s
+Taxi 12s
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed) (jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens) (store|online|jersey|official)
