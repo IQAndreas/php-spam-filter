@@ -60,7 +60,7 @@ cash\s?review
 
 # Not English
 (voyance|rune|horoscope|tarot) gratuite?
-
+mujeres solteras
 
 
 
