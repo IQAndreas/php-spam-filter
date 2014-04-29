@@ -28,7 +28,8 @@ bath-confetti\.com
 robotfinance\.fr
 fightingfatforfit
 
-program[^\.]*\.pl
+program[^\.\'\s]*\.(pl|eu)
+pity[^\.\'\s]*\.(pl|eu)
 #naszprogrampit\.pl
 #programydopit2014\.pl
 #pityprzeznet\.pl
