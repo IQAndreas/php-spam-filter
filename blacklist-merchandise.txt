@@ -14,7 +14,7 @@ Air Max
 Air Jordan
 Nike Huarache
 jimmy choo
-jordan (shoes|high tops|six rings|3 retro)
+jordan (shoes|high tops|six rings|3|retro)
 cheap (jordans?|adidas)
 dre beats
 beats by dre
@@ -89,7 +89,7 @@ Fitflop Fiorella
 new balance
 (Hermes|Chloe Cyndi|replica|Celine|Chanel|Prada) (hand)?bags?
 madrid asics
-asics nimbus
+asics (nimbus|aaron)
 adidas (f10|predator)
 jordans
 swarovski
