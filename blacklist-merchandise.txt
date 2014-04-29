@@ -14,7 +14,7 @@ Air Max
 Air Jordan
 Nike Huarache
 jimmy choo
-jordan (shoes|high tops|six rings|3|retro|releases)
+jordan (shoes|high tops|six rings|3|retro|releases|1)
 cheap (jordans?|adidas)
 dre beats
 beats by dre
