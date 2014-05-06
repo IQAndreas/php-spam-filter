@@ -91,12 +91,13 @@ new balance
 chanel tasche
 madrid asics
 asics (nimbus|aaron)
-adidas (f10|predator|11pro|trx)
+adidas (shoes|f10|predator|11pro|trx)
 jordans
 swarovski
 (humidifier|cookware) review
-GHD outlet
-Tiffany (outlet|uk|silver|store|sale)
+(Talbots|GHD) outlet
+Tiffany (outlet|uk|silver|store|sale|& co)
+Tiffany (double|six|hanging|plum|suspended)
 atlas cube
 Converse All-Stars
 Pandora bracelets
@@ -111,6 +112,7 @@ Gamma Blue 11s
 Bred 11s
 Taxi 12s
 true religion (jeans|outlet|sale)
+GHD (red)
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed) (jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens) (store|online|jersey|official)

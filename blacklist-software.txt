@@ -18,7 +18,8 @@ seo (plugin|tips|optimization)
 PageRank
 Alexa Ranking
 traffic to your (web)?site
-website traffic
+(website|adult) traffic
+buy (web )?traffic
 (free|targeted) visitors
 visitors per (day|month)
 
