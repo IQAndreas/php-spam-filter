@@ -17,7 +17,7 @@ jimmy choo
 jordan (shoes|high tops|six rings|3|retro|releases|1|6)
 cheap (jordans?|adidas)
 dre beats
-beats by dre
+beats by (dr\.? )dre
 coach (factory|outlet)
 nike (store|shop|gs|shox)
 FitFlops?
@@ -98,7 +98,7 @@ swarovski
 (Talbots|GHD|Crocs|Bass) outlet
 (Burke\'?s|J.Crew) outlet
 Tiffany (outlet|uk|silver|store|sale|& co)
-Tiffany (double|six|hanging|plum|suspended|egg)
+Tiffany (double|six|hanging|plum|suspended|egg|blisters|hollow|pearl|bow|be)
 atlas cube
 Converse All-Stars
 Pandora bracelets
@@ -115,6 +115,8 @@ Taxi 12s
 true religion (jeans|outlet|sale)
 GHD (red|purple)
 Supra (Shoes|Cuban)
+Lululemon
+sony vgp
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed) (jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens) (store|online|jersey|official)
