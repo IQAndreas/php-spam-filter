@@ -14,7 +14,7 @@ Air Max
 Air Jordan
 Nike Huarache
 jimmy choo
-jordan (shoes|high tops|six rings|3|retro|releases|1|6)
+jordan (shoes|high tops|six rings|retro|releases|1|3|5|6)
 cheap (jordans?|adidas)
 dre beats
 beats by (dr\.? )dre
@@ -94,10 +94,10 @@ adidas (outlet|shoes|f10|predator|11pro|trx|jeremy)
 jordans
 swarovski
 (humidifier|cookware) review
-(Talbots|GHD|Crocs|Bass|VF) outlet
+(Talbots|GHD|Crocs|Bass|VF|Puma) outlet
 (Burke\'?s|J.Crew) outlet
 Tiffany (outlet|uk|Jewelry|silver|store|sale|& co|and co)
-Tiffany (double|six|hanging|plum|suspended|egg|blisters|hollow|pearl|bow|be)
+Tiffany (double|six|hanging|plum|suspended|egg|blisters|hollow|pearl|bow|be|Rome)
 atlas cube
 Converse All-Stars
 Pandora bracelets
@@ -105,20 +105,22 @@ Pandora bracelets
 cheap toms
 calvin klein
 casquette (swagg|obey|snapback)
-offerte hogan
+(scarpe|offerte) hogan
 ceinture diesel
 (outlet|prezzi scarpe) mbt
 Gamma Blue 11s
 Bred 11s
 Taxi 12s
 (True Religion|Tommy Hilfiger) (jeans|outlet|sale)
-(Banana Republic|Sears|Under Armour|Fossil|Juicy Couture|Kate Spade) outlet
+(Banana Republic|Sears|Under Armour|Fossil|Juicy Couture|Kate Spade|Hogan) outlet
 GHD (red|purple)
 Supra (Shoes|Cuban)
 Lululemon
 sony vgp
 Breville
-Raybans
+Rayban
+Chloe Louise
+Hermes Collier
 
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed) (jersey|store|shop)
@@ -164,6 +166,7 @@ banc de swiss
 (calzado|zapatos) MBT
 MBT baratos
 (billige|damen) (hand)?taschen
+zapatillas? (toms|puma)
 
 
 
