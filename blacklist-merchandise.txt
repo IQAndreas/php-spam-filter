@@ -77,7 +77,6 @@ Kevin Durant
 Abercrombie
 Mulberry
 Nike
-Tiffany Jewelry
 Armani
 Von Maur
 Vera Bradley
@@ -95,28 +94,32 @@ adidas (outlet|shoes|f10|predator|11pro|trx|jeremy)
 jordans
 swarovski
 (humidifier|cookware) review
-(Talbots|GHD|Crocs|Bass) outlet
+(Talbots|GHD|Crocs|Bass|VF) outlet
 (Burke\'?s|J.Crew) outlet
-Tiffany (outlet|uk|silver|store|sale|& co)
+Tiffany (outlet|uk|Jewelry|silver|store|sale|& co|and co)
 Tiffany (double|six|hanging|plum|suspended|egg|blisters|hollow|pearl|bow|be)
 atlas cube
 Converse All-Stars
 Pandora bracelets
-(mbt|toms) (for sale|sale|outlet)
+(mbt|toms) (for sale|sale|outlet|tunisha)
 cheap toms
 calvin klein
 casquette (swagg|obey|snapback)
 offerte hogan
 ceinture diesel
-outlet mbt
+(outlet|prezzi scarpe) mbt
 Gamma Blue 11s
 Bred 11s
 Taxi 12s
-true religion (jeans|outlet|sale)
+(True Religion|Tommy Hilfiger) (jeans|outlet|sale)
+(Banana Republic|Sears|Under Armour) outlet
 GHD (red|purple)
 Supra (Shoes|Cuban)
 Lululemon
 sony vgp
+Breville
+Raybans
+
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed) (jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens) (store|online|jersey|official)
