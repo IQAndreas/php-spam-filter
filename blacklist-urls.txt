@@ -27,6 +27,7 @@ aircool\.fr
 bath-confetti\.com
 robotfinance\.fr
 fightingfatforfit
+coldfilm\.ru
 
 program[^\.\'\s]*\.(pl|eu)
 pity[^\.\'\s]*\.(pl|eu)
