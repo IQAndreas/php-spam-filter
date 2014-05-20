@@ -94,7 +94,7 @@ adidas (outlet|shoes|f10|predator|11pro|trx|jeremy)
 jordans
 swarovski
 (humidifier|cookware) review
-(Talbots|GHD|Crocs|Bass|VF|Puma) outlet
+(Talbots|GHD|Crocs|Bass|VF|Puma|Skechers) outlet
 (Burke\'?s|J.Crew) outlet
 Tiffany (outlet|uk|Jewelry|silver|store|sale|& co|and co)
 Tiffany (double|six|hanging|plum|suspended|egg|blisters|hollow|pearl|bow|be|Rome)
@@ -112,7 +112,7 @@ Gamma Blue 11s
 Bred 11s
 Taxi 12s
 (True Religion|Tommy Hilfiger) (jeans|outlet|sale)
-(Banana Republic|Sears|Under Armour|Fossil|Juicy Couture|Kate Spade|Hogan) outlet
+(Banana Republic|Sears|JC Penny|Under Armour|Fossil|Juicy Couture|Kate Spade|Hogan) outlet
 GHD (red|purple)
 Supra (Shoes|Cuban)
 Lululemon
@@ -121,6 +121,7 @@ Breville
 Rayban
 Chloe Louise
 Hermes Collier
+Lacoste
 
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed) (jersey|store|shop)
