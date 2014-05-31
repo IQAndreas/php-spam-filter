@@ -91,7 +91,8 @@ new balance
 chanel tasche
 madrid asics
 asics (nimbus|aaron)
-adidas (outlet|shoes|f10|predator|11pro|trx|jeremy)
+#adidas (outlet|shoes|f10|predator|11pro|trx|jeremy)
+Adidas
 jordans
 swarovski
 (humidifier|cookware) review
@@ -123,11 +124,14 @@ Rayban
 Chloe Louise
 Hermes Collier
 Lacoste
-Lebrons? (10|11)
+Lebrons? (10|11|James)
 Le Coq
-coach bags
+coach (bags?|backpacks?)
 Reebok
 Rolex
+Bottega
+designer watches
+(body|waist) shaper
 
 rice cooker
 food processor

@@ -17,6 +17,8 @@ https?:\/\/[^\/]+\.pl\/\S*\?p=\d{2,8}
 # Ends each letter with a "footer" of their URL repeated twice
 (http:\/\/([^\s]+))\s(\1)$
 
+rarnewy@gmail.com
+
 # Fake email addresses
 @{gmail\|hotmail\|aol\.com
 dsaf\*@gmail\.com
