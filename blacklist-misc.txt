@@ -23,7 +23,8 @@ dsaf\*@gmail\.com
 gyggjdtfz@gmail\.com
 
 # Matches fake email addresses like '**wmmw**@gmail.com'
-\*\*[^@']+@[^\.]+\.com
+\*[^@']+@[^\.]+\.com
+[^@']+\*@[^\.]+\.com
 
 # This is literally the entire comment they leave.
 # Oh well, it makes my job easier.

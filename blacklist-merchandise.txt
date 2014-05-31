@@ -30,6 +30,7 @@ abercrombie (france|canada)
 (sex|masturbation) toys
 cigarette (drops|discounter)
 (cheap|discount|electronic|Newport) cigarette
+e-cigarette
 esmokes
 teeth whitening
 longchamp
@@ -45,7 +46,7 @@ insanity workout
 ray ban
 led (lamps|lighting|light bulbs|flood lights|spotlight)
 canada (goose|geese)
-(DC|red bottom|toms) shoes
+(DC|red bottom|toms?) shoes?
 cheap hats
 Nike Free
 male models
@@ -112,7 +113,7 @@ Gamma Blue 11s
 Bred 11s
 Taxi 12s
 (True Religion|Tommy Hilfiger) (jeans|outlet|sale)
-(Banana Republic|Sears|JC Penny|Under Armour|Fossil|Juicy Couture|Kate Spade|Hogan) outlet
+(Banana Republic|Sears|JC Penny|Under Armour|Fossil|Juicy Couture|Kate Spade|Hogan|Tommy Bahama|Vineyard Vines|Beall's) outlet
 GHD (red|purple)
 Supra (Shoes|Cuban)
 Lululemon
@@ -124,7 +125,12 @@ Hermes Collier
 Lacoste
 Lebrons? (10|11)
 Le Coq
+coach bags
+Reebok
+Rolex
 
+rice cooker
+food processor
 
 (official|cheap|authentic|custom|wholesale|autographed|elite|womens|signed) (jersey|store|shop)
 (bears|patriots|seahawks|packers|ravens) (store|online|jersey|official)
@@ -171,5 +177,6 @@ MBT baratos
 (billige|damen) (hand)?taschen
 zapatillas? (toms|puma)
 kostenlos # German for "free"
+nettbutikk # Norwegian for "online store"
 
 
