@@ -137,8 +137,12 @@ Piaget
 Bottega
 designer watches
 Longines
+vans (stripes|shoes|skate|surf|footwear|love)
+
+small dog breeds
 
 (body|waist) shaper
+(Hugh Jackman|Vin Diesel|Tom Hardy) workout
 
 rice cooker
 food processor

@@ -12,7 +12,7 @@
 cars? for sale
 7 Seater Car
 credit repair
-pay\s?day loan
+pay day loan
 365DayLoan
 home (phone|broadband)
 no win no fee
@@ -38,7 +38,7 @@ Car rental
 Cheap flights
 XLgirls
 cash for cars
-escorts? (in|of)?\s?(Napoli|Milano|Dubai|Roma|Shanghai|Russian?)
+escorts? (in|of)? (Napoli|Milano|Dubai|Roma|Shanghai|Russian?)
 (Napoli|Milano|Dubai|Roma|Shanghai|Russian?) escorts?
 travel accommodation
 free job search
@@ -50,15 +50,15 @@ Sexcam
 telecharger
 shore (tours|excursions)
 
-home\s?security
+home security
 (criminal|defense|family) lawyer
 (car|life|building)\s*insurance
 (accident|injury|compensation) claims?
-(plumbers?|lawyers?|locksmiths?|storage|repairs?|pest control|electricians?|accountants?|solicitors?) (in)?\s?(north|east|south|west)?\s?(london|vancouver|ottowa|toronto|Mississauga|sydney|Melbourne)
+(plumbers?|lawyers?|locksmiths?|storage|repairs?|pest control|electricians?|accountants?|solicitors?) (in)? (north|east|south|west)? (london|vancouver|ottowa|toronto|Mississauga|sydney|Melbourne)
 (debt|financial) (consolidation|relief|advice|management|counselling)
 personal injury solicitor
-credit\s?services
-cash\s?review
+credit services
+cash review
 
 # Not English
 (voyance|rune|horoscope|tarot) gratuite?
