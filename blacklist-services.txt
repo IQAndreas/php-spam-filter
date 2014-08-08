@@ -48,6 +48,7 @@ marketing (manager|maneger|online)
 webcam chat
 Sexcam
 telecharger
+shore (tours|excursions)
 
 home\s?security
 (criminal|defense|family) lawyer

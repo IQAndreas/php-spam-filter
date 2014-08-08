@@ -124,7 +124,8 @@ Rayban
 Chloe Louise
 Hermes Collier
 Lacoste
-Lebrons? (10|11|James)
+#Lebrons? (10|11|James)
+Lebron
 Le Coq
 coach (bags?|backpacks?)
 ysl (tassel|outlet|tribute|shoes)
@@ -190,7 +191,7 @@ kostenlos # German for "free"
 nettbutikk # Norwegian for "online store"
 namiot halowy
 namioty magazynowe
-
+destockage # French for "clearance"
 
 
 
