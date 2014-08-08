@@ -17,13 +17,13 @@ pay day loan
 home (phone|broadband)
 no win no fee
 horse racing
-(currency|money)\s*transfer
+(currency|money) transfer
 alternatefuel
 online dating
 reverse phone lookup
 cash advance
 online divorce
-divorce on\s*line
+divorce on line
 ppi claims
 hotels cheap
 (london|usa) (hotels?|spas?)
@@ -52,7 +52,7 @@ shore (tours|excursions)
 
 home security
 (criminal|defense|family) lawyer
-(car|life|building)\s*insurance
+(car|life|building) insurance
 (accident|injury|compensation) claims?
 (plumbers?|lawyers?|locksmiths?|storage|repairs?|pest control|electricians?|accountants?|solicitors?) (in)? (north|east|south|west)? (london|vancouver|ottowa|toronto|Mississauga|sydney|Melbourne)
 (debt|financial) (consolidation|relief|advice|management|counselling)
